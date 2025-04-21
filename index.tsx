@@ -31,7 +31,7 @@ const testimonialsData: Testimonial[] = [
 ];
 
 const SmokeShopLanding: NextPage = () => {
-  const shopName = "The Ember Lounge";
+  const shopName = "Blazy Vape Shop";
   const tagline = "Premium Smoking Accessories & Welcoming Vibes";
 
   return (
@@ -76,10 +76,10 @@ const SmokeShopLanding: NextPage = () => {
         <section id="about" className="py-20 md:py-28 bg-gray-800">
           <div className="container mx-auto px-6 max-w-4xl text-center">
             <h3 className="text-4xl font-bold text-amber-400 mb-6 tracking-tight">
-              Welcome to The Ember Lounge
+              Welcome to Blazy Vape Shop
             </h3>
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
-              Established in 2015, The Ember Lounge was born from a passion for
+              Established in 2015, Blazy Vape Shop was born from a passion for
               quality smoking products and a desire to create a welcoming space
               for enthusiasts. We pride ourselves on curating a diverse selection
               of premium tobacco, state-of-the-art vapes, and unique accessories,
@@ -207,8 +207,8 @@ const SmokeShopLanding: NextPage = () => {
             <Gift size={48} className="mx-auto mb-4 text-gray-900" />
             <h3 className="text-4xl font-bold mb-6 tracking-tight">Loyalty & Deals</h3>
             <p className="text-xl mb-8 leading-relaxed font-medium">
-              Join our <span className="font-bold">Ember Rewards</span> program! Earn
-              points with every purchase and get exclusive access to member-only
+              Join our <span className="font-bold">Blazy Rewards</span> program! Earn
+              points with every purchase and get exclusive access to mBlazy-only
               discounts and seasonal specials. Ask in-store to sign up today!
             </p>
             <div className="bg-gray-900/20 p-4 rounded-lg inline-block">
