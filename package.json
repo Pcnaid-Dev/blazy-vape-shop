@@ -1,4 +1,13 @@
 {
+  "name": "blazy-vape-shop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",          // local development
+    "build": "next build",      // creates .next for production
+    "start": "next start",      // runs the built app locally
+    "vercel-build": "next build"// what Cloudflare Pages invokes
+  },
   "dependencies": {
     "next": "^13.4.0",
     "react": "^18.2.0",
