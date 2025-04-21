@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",          // local development
-    "build": "next build",      // creates .next for production
-    "start": "next start",      // runs the built app locally
-    "vercel-build": "next build"// what Cloudflare Pages invokes
+    "dev": "next dev",          
+    "build": "next build",      
+    "start": "next start",      
+    "vercel-build": "next build"
   },
   "dependencies": {
     "next": "^13.4.0",
