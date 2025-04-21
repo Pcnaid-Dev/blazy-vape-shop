@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add other global styles below if needed */
+/* Example based on your component: */
+body {
+    @apply bg-gray-900 text-gray-200 font-sans antialiased;
+}
+
+/* You might want to define the custom text shadow classes if not using theme extend */
+.shadow-text-lg {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.shadow-text-md {
+     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
