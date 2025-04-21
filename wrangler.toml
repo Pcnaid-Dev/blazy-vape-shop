@@ -1,2 +1,3 @@
-toml [build] command = "npm run vercel-build" 
+[build]
+command = "npm run vercel-build"
 cwd = "."
