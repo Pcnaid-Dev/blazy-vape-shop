@@ -76,7 +76,7 @@ const SmokeShopLanding: NextPage = () => {
               className="mb-8 block max-w-[280px] sm:max-w-xs h-auto" // Adjusted max-width, bottom margin
             />
             <a
-              href="#location"
+              href="https://www.google.com/maps/dir//5815%20South%20Cockrell%20Hill%20Road%20Suite%20#120%20Dallas,%20TX%2075236" target="_blank" rel="noopener noreferrer" className="bg-amber-500 hover:bg-amber-600 text-gray-900 font-semibold px-5 py-2 rounded-full transition duration-300 text-sm shadow-md"
               className="bg-amber-500 hover:bg-amber-600 text-gray-900 font-bold px-10 py-4 rounded-full text-lg transition duration-300 transform hover:scale-105 shadow-xl"
             >
               Visit Us Today!
