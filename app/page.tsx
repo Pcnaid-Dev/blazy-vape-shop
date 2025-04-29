@@ -31,7 +31,7 @@ const testimonialsData: Testimonial[] = [
 ];
 
 const SmokeShopLanding: NextPage = () => {
-  const shopName = "Blazy Vape Shop";
+  const imageUrl = "/images/BlazyVapeShop-Transparent.png";
   const tagline = "Premium Smoking Accessories & Welcoming Vibes";
 
   return (
@@ -44,7 +44,7 @@ const SmokeShopLanding: NextPage = () => {
       <header className="bg-gray-950/80 backdrop-blur-sm sticky top-0 z-50 shadow-lg">
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-amber-400 tracking-tight">{shopName}</h1>
-          <a href="#location" className="bg-amber-500 hover:bg-amber-600 text-gray-900 font-semibold px-5 py-2 rounded-full transition duration-300 text-sm shadow-md">Find Us</a>
+          <a href="https://www.google.com/maps/dir//5815%20South%20Cockrell%20Hill%20Road%20Suite%20#120%20Dallas,%20TX%2075236" className="bg-amber-500 hover:bg-amber-600 text-gray-900 font-semibold px-5 py-2 rounded-full transition duration-300 text-sm shadow-md">Find Us</a>
         </nav>
       </header>
 
@@ -79,7 +79,7 @@ const SmokeShopLanding: NextPage = () => {
               Welcome to Blazy Vape Shop
             </h3>
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
-              Established in 2015, Blazy Vape Shop was born from a passion for
+              Established in 2024, Blazy Vape Shop was born from a passion for
               quality smoking products and a desire to create a welcoming space
               for enthusiasts. We pride ourselves on curating a diverse selection
               of premium tobacco, state-of-the-art vapes, and unique accessories,
@@ -114,8 +114,8 @@ const SmokeShopLanding: NextPage = () => {
               {[
                 { title: "Premium Cigars", desc: "Hand-rolled cigars from around the world.", icon: "🚬" },
                 { title: "Vapes & E-Liquids", desc: "Latest devices and a wide flavor selection.", icon: "💨" },
-                { title: "Glass & Pipes", desc: "Artistic and functional pieces.", icon: "🔥" },
-                { title: "Accessories", desc: "Grinders, papers, lighters, and more.", icon: "⚙️" },
+                { title: "Vintage Pipes", desc: "Artistic and functional pieces.", icon: "🔥" },
+                { title: "Accessories", desc: "Papers, lighters, and more.", icon: "⚙️" },
               ].map((prod, i) => (
                 <div
                   key={i}
@@ -144,33 +144,35 @@ const SmokeShopLanding: NextPage = () => {
                 <div className="flex items-start space-x-4">
                   <MapPin className="text-amber-400 mt-1 flex-shrink-0" size={24} />
                   <span>
-                    123 Smoke Signal Ave,
-                    <br /> Ashville, ST 98765
+                    5815 South Cockrell Hill Road Suite #120,
+                    <br /> Dallas, TX 75236
                   </span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Clock className="text-amber-400 flex-shrink-0" size={24} />
                   <span>
-                    Mon - Sat: 10 AM - 9 PM
-                    <br /> Sun: 12 PM - 6 PM
+                    Mon - Sun: 8 AM - 12 AM
+                    <br /> 
                   </span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Phone className="text-amber-400 flex-shrink-0" size={24} />
                   <a
-                    href="tel:+15551234567"
+                    href="tel:+9728046688"
                     className="hover:text-amber-300 transition duration-200"
                   >
-                    (555) 123-4567
+                    (972) 804-6688
                   </a>
                 </div>
               </div>
               <button className="mt-10 bg-amber-500 hover:bg-amber-600 text-gray-900 font-bold px-8 py-3 rounded-full text-base transition duration-300 shadow-lg">
-                Contact Us Form (Link)
+                Contact Us Form
               </button>
             </div>
             <div className="h-80 md:h-96 bg-gray-700 rounded-xl shadow-lg flex items-center justify-center border-2 border-dashed border-gray-600">
-              <p className="text-gray-500 italic">Embedded Map Placeholder</p>
+
+<div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;"><div id="my-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=5815+South+Cockrell+Hill+Road+suite+120,+Dallas,+TX+75236,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-map-html" rel="nofollow" href="https://kbj9qpmy.com/hrn" id="get-data-for-map"></a><style>#my-map-display img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+              
             </div>
           </div>
         </section>
