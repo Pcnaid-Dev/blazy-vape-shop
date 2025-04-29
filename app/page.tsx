@@ -126,7 +126,7 @@ const SmokeShopLanding: NextPage = () => {
               {[
                 { title: "Premium Cigars", desc: "Hand-rolled cigars from around the world.", icon: "🚬" },
                 { title: "Vapes & E-Liquids", desc: "Latest devices and a wide flavor selection.", icon: "💨" },
-                { title: "Vintage Pipes", desc: "Artistic and functional pieces.", icon: "🔥" },
+                { title: "Vintage Collectibles", desc: "Artistic and Classic designs.", icon: "🔥" },
                 { title: "Accessories", desc: "Papers, lighters, and more.", icon: "⚙️" },
               ].map((prod, i) => (
                 <div
