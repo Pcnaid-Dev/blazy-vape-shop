@@ -31,7 +31,9 @@ const testimonialsData: Testimonial[] = [
 ];
 
 const SmokeShopLanding: NextPage = () => {
+  const shopName = "Blazy Vape Shop";
   const imageUrl = "/images/BlazyVapeShop-Transparent.png";
+  const imageAlt = "Blazy Vape Shop Logo";
   const tagline = "Premium Smoking Accessories & Welcoming Vibes";
 
   return (
