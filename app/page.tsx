@@ -37,6 +37,7 @@ const SmokeShopLanding: NextPage = () => {
   const tagline = "Premium Smoking Accessories & Welcoming Vibes";
 
   return (
+    <>
     <div className="min-h-screen bg-gray-900 text-gray-200 font-sans antialiased">
       <Head>
         <title>{shopName} - {tagline}</title>
@@ -257,7 +258,7 @@ const SmokeShopLanding: NextPage = () => {
           </p>
         </div>
       </footer>
-    </div>
+    </div><>
   );
 };
 
