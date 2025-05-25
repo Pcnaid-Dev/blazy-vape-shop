@@ -163,7 +163,7 @@ const SmokeShopLanding: NextPage = () => {
                 <div className="flex items-center space-x-4">
                   <Clock className="text-amber-400 flex-shrink-0" size={24} />
                   <span>
-                    Mon - Sun: 8 AM - 12 AM
+                    Mon - Sun: Open 24 hours
                   </span>
                 </div>
                 <div className="flex items-center space-x-4">
